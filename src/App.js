@@ -115,9 +115,9 @@ const App = ({ signOut }) => {
             <Text as="span">{note.description}</Text>
             {note.image && (
               <Image
-              src={note.image}
-              alt={`visual aid for ${notes.name}`}
-              style={{ width: 400 }}
+                src={note.image}
+                alt={`visual aid for ${notes.name}`}
+                style={{ width: 400 }}
               />
             )}
             <Button variation="link" onClick={() => deleteNote(note)}>
@@ -127,12 +127,7 @@ const App = ({ signOut }) => {
         ))}
         
       </View>
-      <View
-        name="image"
-        as="input"
-        type="file"
-        style={{ alignSelf: "end" }}
-      />
+      
       <Button onClick={signOut}>Sign Out</Button>
     </View>
   );
