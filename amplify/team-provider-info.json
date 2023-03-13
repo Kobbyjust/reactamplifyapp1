@@ -17,6 +17,9 @@
       },
       "api": {
         "reactamplifyapp1": {}
+      },
+      "storage": {
+        "reactamplifyapp1imagestorage": {}
       }
     }
   }
